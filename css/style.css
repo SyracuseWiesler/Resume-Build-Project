@@ -1,0 +1,419 @@
+@media all and (min-width:320px){
+    /*mobile*/
+    html {
+        background-color: rgb(62, 63, 69);
+    }
+
+    body {
+        width: 78%;
+        margin: 0 auto;
+        padding: 0 15px;
+        font-family: arial;
+    }
+
+    h1, h2, h3, h4, h5, h6, p {
+        margin:0;
+        padding:0;
+    }
+
+    header {
+        padding: 5px 15px 20px 15px;
+        background-color: white;
+        width: 109.375%;
+        position: relative;
+        right: 15px;
+        box-sizing: border-box;
+    }
+
+    header br {
+        display: none;
+    }
+
+    header h1{
+        font-size: 40px;
+        border-bottom: 3px solid rgba(137, 137, 137, 0.8);
+        padding-bottom: 5px;
+    }
+
+    header h1 span {
+        font-size: 14px;
+    }
+
+    .basic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .basic span {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .basic i {
+        color: rgb(255, 88, 7);
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .basic .skill {
+        text-align: center;
+    }
+
+    .basic .skill img {
+        width: 93.75%;
+        height: auto;
+    }
+
+    .basic .skill img, .basic .skill i:nth-child(2){
+        display: none;
+    }
+
+    .basic .skill i, .basic .skill strong {
+        font-style: normal;
+        display: block;
+        text-align: left;
+        color: black;
+    }
+
+    .basic .skill strong{
+        text-align: center;
+        color: rgb(255, 88, 7);
+    }
+
+    .basic .skill i em {
+        margin-right: 15px;
+    }
+
+    .basic .skill i br {
+        display: block;
+    }
+
+    .experience {
+        width: 109.375%;
+        background-color: rgb(137, 137, 137);
+        margin: 0;
+        position: relative;
+        right: 15px;
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
+
+    .experience h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .experience h3 {
+        font-size: 14px;
+        color: white;
+    }
+
+    .experience ul {
+        list-style: none outside;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    .experience ul li {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+
+    .experience span:first-child{
+        float: left;
+    }
+
+    .experience span:nth-child(2){
+        float: right;
+    }
+
+    .projects {
+        width: 109.375%;
+        background-color: rgb(62, 63, 69);
+        margin: 0;
+        position: relative;
+        right: 15px;
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
+
+    .projects h1 {
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .projects h3 {
+        color: white;
+    }
+
+    .projects span {
+        float: right;
+        margin-top: 5px;
+    }
+
+    .projects ul {
+        list-style: none outside none;
+        padding-left: 10px;
+        margin-top: 25px;
+    }
+
+    .projects ul li {
+        margin-bottom: 5px;
+    }
+
+    .projects .sub-project {
+        margin-bottom: 15px;
+    }
+
+    .sub-project img {
+        width: 93.75%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .education {
+        width: 109.375%;
+        background-color: rgb(137, 137, 137);
+        margin: 0;
+        position: relative;
+        right: 15px;
+        padding: 10px 15px;
+        box-sizing: border-box;
+    }
+
+    .education h1, .sub-education h3 {
+        color: white;
+    }
+
+    .sub-education {
+        margin: 5px 0 10px 0;
+    }
+
+    .sub-education a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .map {
+        margin-bottom: 5px;
+        position: relative;
+    }
+
+    .map h1 {
+        font-size: 22px;
+        margin: 10px 0 5px 0;
+        color: white;
+    }
+
+    .map .map-canvas {
+        width: 100%;
+        height: 360px;
+        margin: 0;
+    }
+
+    .contact {
+        width: 109.375%;
+        background-color: rgb(81, 81, 81);
+        margin: 0;
+        position: relative;
+        right: 15px;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .contact h1 {
+        width: 110.35%;
+        position: relative;
+        right: 15px;
+        background-color: rgb(255, 84, 0);
+        color: white;
+        padding: 10px 0;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .contact span {
+        display: block;
+        font-size: 20px;
+    }
+
+    .contact span i {
+        color: rgb(255, 84, 0)
+    }
+
+    .contact br {
+        display: none;
+    }
+
+}
+@media all and (min-width:768px){
+    /*tablet*/
+    body {
+        /*width: 768px;*/
+        padding-top: 20px;
+        width: 85%;
+    }
+
+    header, .experience, .projects, .education, .map, .contact {
+        padding: 20px 30px 20px 30px;
+        width: 105.26%;
+    }
+
+    header h1 {
+        font-size: 60px;
+    }
+
+    header h1 span {
+        font-size: 22px;
+    }
+
+    header br {
+        display: block;
+    }
+
+    header .basic span:nth-child(4) {
+        margin-left: 0;
+    }
+
+    header .basic span:nth-child(5) {
+        margin-left: 115px;
+    }
+
+    .basic {
+        display: block;
+        padding: 10px 0 10px 0;
+        margin: 0 auto;
+    }
+
+    .basic span {
+        display: inline-block;
+        margin: 5px 0 5px 0;
+        font-size: 23px;
+    }
+
+    .basic span:nth-child(4){
+        margin-left: 115px;
+    }
+
+    .experience h1, .projects h1, .education h1, .map h1, .contact h1 {
+        font-size: 35px;
+    }
+
+    .experience h3, .experience ul li,
+    .projects h3, .projects ul li,
+    .education h3, .education p, .education span, .education a
+    {
+        font-size: 20px;
+    }
+
+    .sub-project img {
+        width: 80%;
+        /*margin-left: 45px;*/
+        margin: 0 auto;
+    }
+
+    .map {
+        position: relative;
+        right: 25px;
+    }
+
+    .map .map-canvas {
+        height: 600px;
+        width: 95%;
+    }
+
+    .contact {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+    .contact h1 {
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .contact span {
+        display: inline;
+        margin-left: 50px;
+    }
+
+    .contact span:nth-child(6) {
+        margin-left: 150px;
+    }
+
+    .contact br {
+        display: block;
+    }
+
+    .basic .skill img, .basic .skill i:nth-child(2){
+        display: inline;
+    }
+
+    .basic .skill img {
+        width: 30%;
+        float: left;
+        margin-right: 15px;
+    }
+
+    .basic .skill i:nth-child(4) {
+        float: left;
+        width: 65%;
+    }
+
+    .basic .skill {
+        font-size: 22px;
+    }
+
+}
+
+@media all and (min-width: 992px){
+    /*desktop*/
+    header .basic span:nth-child(2) {
+        margin-left: 100px;
+    }
+
+    header .basic span:nth-child(5) {
+        margin-left: 215px;
+    }
+
+    .sub-project img {
+        width: 60%;
+    }
+
+    .basic .skill i br {
+        display: none;
+    }
+
+
+}
+
+
+@media all and (min-width:1290px){
+    /*desktop*/
+    header .basic span:nth-child(2) {
+        margin-left: 0;
+    }
+    header .basic span:nth-child(5) {
+        margin-left: 0;
+    }
+
+    header br {
+        display: none;
+    }
+
+    .contact br {
+        display: none;
+    }
+
+    .contact span:nth-child(6) {
+        margin-left: 50px;
+    }
+
+    .sub-project img {
+        width: 50%;
+    }
+
+}
